@@ -12,7 +12,6 @@ This comprehensive support system empowers you to manage tickets, departments, c
 - **Organized Departments & Categories:** Group tickets logically based on departments and categories, enabling efficient routing and resolution.
 - **Granular User Management:** Set up user accounts with appropriate roles and permissions, ensuring secure access control.
 - **Robust Comment System:** Facilitate seamless communication by adding comments to tickets. Maintain a clear record of interactions and updates.
-# Documentation : http://127.0.0.1:8000/api/documentation
 
 **Getting Started (Lightspeed Setup):**
 
@@ -58,6 +57,8 @@ This comprehensive support system empowers you to manage tickets, departments, c
 **Now, You're Ready to Launch!:**
 
 Navigate to your Laravel application's base URL in your browser (http://127.0.0.1:8000) to begin using the Ticket Support System. 
+# Documentation : http://127.0.0.1:8000/api/documentation
+
 
 **Pro Tip: Customize Your System (Unleash Its Potential):**
 
@@ -68,6 +69,7 @@ Navigate to your Laravel application's base URL in your browser (http://127.0.0.
 We welcome your contributions to this project! Refer to the CONTRIBUTING.md file for guidelines on how to submit pull requests and get involved in the development process.
 
 **License:**
+
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
