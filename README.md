@@ -56,7 +56,7 @@ This comprehensive support system empowers you to manage tickets, departments, c
 
 **Now, You're Ready to Launch!:**
 
-Navigate to your Laravel application's base URL in your browser (typically `http://localhost:8080`) to begin using the Ticket Support System. 
+Navigate to your Laravel application's base URL in your browser (http://127.0.0.1:8000) to begin using the Ticket Support System. 
 
 **Pro Tip: Customize Your System (Unleash Its Potential):**
 
