@@ -18,10 +18,9 @@ This comprehensive support system empowers you to manage tickets, departments, c
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/laravel-support-tickets-system.git
+   git clone https://github.com/Nourwp/laravel-support-tickets-system.git
    ```
 
-   Replace `your-username` with your actual GitHub username.
 
 2. **Install Dependencies (Fuel Your System):**
 
