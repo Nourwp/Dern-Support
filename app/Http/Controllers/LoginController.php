@@ -1,0 +1,38 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Response;
+
+class LoginController extends Controller
+{
+    /**
+     * @OA\Post(
+     *     path="/api/login",
+     *     summary="Authenticate user and generate JWT token",
+     *     @OA\RequestBody(
+     *         required=true,
+     *         @OA\JsonContent(
+     *             required={"email","password"},
+     *             @OA\Property(property="email", type="string", format="email", example="john@example.com"),
+     *             @OA\Property(property="password", type="string", format="password", example="password")
+     *         ),
+     *     ),
+     *     @OA\Response(response="200", description="Login successful"),
+     *     @OA\Response(response="401", description="Invalid credentials")
+     * )
+     */
+    public function login(Request $request)
+    {
+        $credentials = $request->only('email', 'password');
+
+        if (Auth::attempt($credentials)) {
+            $token = Auth::user()->createToken('api_token')->plainTextToken;
+            return response()->json(['token' => $token], 200);
+        }
+
+        return response()->json(['error' => 'Invalid credentials'], 401);
+    }
+}
