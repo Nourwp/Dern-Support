@@ -12,6 +12,7 @@ This comprehensive support system empowers you to manage tickets, departments, c
 - **Organized Departments & Categories:** Group tickets logically based on departments and categories, enabling efficient routing and resolution.
 - **Granular User Management:** Set up user accounts with appropriate roles and permissions, ensuring secure access control.
 - **Robust Comment System:** Facilitate seamless communication by adding comments to tickets. Maintain a clear record of interactions and updates.
+# Documentation : http://127.0.0.1:8000/api/documentation
 
 **Getting Started (Lightspeed Setup):**
 
