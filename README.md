@@ -12,6 +12,8 @@ This comprehensive support system empowers you to manage tickets, departments, c
 - **Organized Departments & Categories:** Group tickets logically based on departments and categories, enabling efficient routing and resolution.
 - **Granular User Management:** Set up user accounts with appropriate roles and permissions, ensuring secure access control.
 - **Robust Comment System:** Facilitate seamless communication by adding comments to tickets. Maintain a clear record of interactions and updates.
+- - **Inventroty:** you can add product or part from database.
+##download file csv  is work but you maust download the library
 
 **Getting Started (Lightspeed Setup):**
 
