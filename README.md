@@ -55,7 +55,10 @@ This comprehensive support system empowers you to manage tickets, departments, c
    ```bash
    npm run dev
    ```
+5. **Compile backend :**
 
+   ```bash
+   php artisan serve
 **Now, You're Ready to Launch!:**
 
 Navigate to your Laravel application's base URL in your browser (http://127.0.0.1:8000) to begin using the Ticket Support System. 
